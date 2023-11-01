@@ -1,0 +1,93 @@
+Reset some default margin and padding
+body, h1, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style the header */
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  h1 {
+    font-size: 36px;
+  }
+  
+  /* Style the "Between" paragraph */
+  .between {
+    font-size: 28px;
+  }
+  
+  /* Style the "Again!" button */
+  .btn.again {
+    background-color: #4CAF50;
+    color: #fff;
+    
+    padding: 10px 20px;
+    border: none;
+    font-size: 28px;
+    cursor: pointer;
+  }
+  
+  /* Style the number display */
+  .number {
+    font-size: 48px;
+    text-align: center;
+    padding: 40px;
+  
+  }
+  
+  /* Style the main section */
+  main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  /* Style the left section */
+  .left {
+    text-align: center;
+  }
+  
+  .guess {
+    font-size: 29px;
+    padding: 5px;
+  }
+  
+  /* Style the "Check!" button */
+  .btn.check {
+    background-color: #0074D9;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Style the right section */
+  .right {
+    text-align: center;
+  }
+  
+  /* Style the score and highscore */
+  .label-score, .label-highscore {
+    font-size: 29px;
+    margin: 10px 0;
+  }
+  
+  .score, .highscore {
+    font-weight: bold;
+    font-size: 29px;
+  }
+  
+  /* Style the message */
+  .message {
+    font-size: 43px;
+    color: #333;
+    margin-bottom: 30px;
+
+  }
+  
